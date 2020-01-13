@@ -8,4 +8,3 @@ def calculate_age():
 		Y+=7
 		print ( name + "," + " in " + str(Y) + " "+ "your age is " + str(x))
 
-
