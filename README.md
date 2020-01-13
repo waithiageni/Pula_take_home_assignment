@@ -3,7 +3,7 @@
 # QUESTION 1 instructions on how to run the program
 cmd into Question 1 folder
 Open python shell by typing python then hit enter
->>>from question1 import calculate_age
+from question1 import calculate_age
 >>>calculate_age()      (# question1 is the module and calculate_age is the method that you are importing)
 >>>Enter your name:" "  (# enter your name in string format) hit enter
 >>>Enter your age:
