@@ -1,18 +1,3 @@
-# def validate_ip(s):
-#     a = s.split('.')
-#     if len(a) != 4:
-#         return False
-#     for x in a:
-#         if not x.isdigit():
-#             return False
-#         i = int(x)
-#         if i < 0 or i > 255:
-#             return False
-#     return True
-
-#     s = input("Enter IP address :")
-#     print validate_ip(s)
-
 def validate_ipv4(ipv4):
     R = ipv4.split(".")
     if len (R) < 4 or len(R) > 4:
